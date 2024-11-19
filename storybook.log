@@ -1,0 +1,29 @@
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: reuter-web@0.0.1
+npm error Found: svelte@5.0.0-next.264
+npm error node_modules/svelte
+npm error   dev svelte@"^5.0.0-next.1" from the root project
+npm error   peer svelte@"^4.0.0 || ^5.0.0-next.65" from @storybook/svelte@8.3.5
+npm error   node_modules/@storybook/svelte
+npm error     dev @storybook/svelte@"^8.3.5" from the root project
+npm error     peer @storybook/svelte@"^7.0.0 || ^8.0.0 || ^8.0.0-beta.0 || ^8.2.0-beta.0" from @storybook/addon-svelte-csf@4.1.7
+npm error     node_modules/@storybook/addon-svelte-csf
+npm error       dev @storybook/addon-svelte-csf@"^4.1.7" from the root project
+npm error   1 more (@sveltejs/vite-plugin-svelte)
+npm error
+npm error Could not resolve dependency:
+npm error peer svelte@"^4.0.0" from @storybook/addon-svelte-csf@4.1.7
+npm error node_modules/@storybook/addon-svelte-csf
+npm error   dev @storybook/addon-svelte-csf@"^4.1.7" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /home/reutershawn/.npm/_logs/2024-10-11T23_39_05_722Z-eresolve-report.txt
+
+npm error A complete log of this run can be found in: /home/reutershawn/.npm/_logs/2024-10-11T23_39_05_722Z-debug-0.log

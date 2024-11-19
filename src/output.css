@@ -1,0 +1,10 @@
+:root {
+  --green: #49D763;
+  --sky: #A0C4E8;
+  --lav: #CEA4CC;
+  --sun: #F5AB54;
+}
+
+body {
+  font-family: Instrumental Sans Regular, sans-serif;
+}
