@@ -25,7 +25,7 @@
   </section>
 
   <section id="projects" class="content-section">
-	<Projects/>
+	<!-- <Projects/> -->
   </section>
   
 
