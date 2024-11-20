@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Hero from '$lib/Hero.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import Services from '$lib/Services.svelte';
@@ -6,6 +6,7 @@
     import Cta from '$lib/CTA.svelte';
 	import Projects from '$lib/Projects.svelte';
 	import Testomonials from '$lib/Testomonials.svelte';
+
 </script>
   
   
@@ -53,3 +54,4 @@
 		top: 0;
 	}
   </style>
+
