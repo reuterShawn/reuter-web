@@ -1,4 +1,7 @@
 <script lang="ts">
+	import photo from '$lib/assets/headshotShawn.jpg'
+
+
     let imageContainer:HTMLDivElement;
     let rotateX = $state(0);
     let rotateY = $state(0);
@@ -7,7 +10,7 @@
     $effect(() => {
       if (!imageContainer) return;
   
-      const handleMouseMove = (e) => {
+      const handleMouseMove = (e: { clientX: number; clientY: number; }) => {
         const { left, top, width, height } = imageContainer.getBoundingClientRect();
         const x = (e.clientX - left) / width - 0.5;
         const y = (e.clientY - top) / height - 0.5;
@@ -36,7 +39,7 @@
   <div class="image-container" bind:this={imageContainer}>
     <!-- svelte-ignore a11y_img_redundant_alt -->
     <img
-      src="/src/public/headshotShawn.jpg"
+      src={photo}
       alt="man in a blue suit smiling"
       class="bendable-image"
       style:transform="perspective(1000px) rotateX({rotateX}deg) rotateY({rotateY}deg) scale({scale})"
@@ -56,5 +59,6 @@ opacity: 0px;
       height: 100%;
       object-fit: cover;
       transition: transform 0.4s ease-out;
+      border-radius: 1em;
     }
   </style>

@@ -1,11 +1,17 @@
 
+<script lang="ts">
+
+import html5 from '$lib/assets/html5.png'
+import css from '$lib/assets/css.png'
+import github from '$lib/assets/github.png'
+
+</script>
 <div class="contain">
     <div>
-        <img style="width:63px; height:14px; " src="/src/public/html5.png" alt="html 5 logo"/>
-        <img style="width:31px; height:31px; " src="/src/public/html52.png" alt="html 5 logo"/>
+        <img src={html5} alt="html 5 logo"/>
     </div>
-    <img style="width:69px; height:30px;" src="/src/public/css.png" alt="css logo"/>
-    <img style="width:94px; height:25px;" src="/src/public/github.png" alt="github logo"/>
+    <img style="width:69px; height:30px;" src={css} alt="css logo"/>
+    <img style="width:94px; height:25px;" src={github} alt="github logo"/>
 
 </div>
 

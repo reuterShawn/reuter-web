@@ -2,14 +2,14 @@
 	import ChangeThemeButton from './ChangeThemeButton.svelte';
 	import CurrentTheme from './ChangeThemeButton.svelte';
 	let currentTheme;
-
+	import photo from '$lib/assets/logo.png'
 	import ContactMe from './ContactMe.svelte';
 </script>
 
 <section class="hero-section">
 	<header>
 		<div class="header-content">
-			<img src="/src/public/logo.png" alt="company logo" />
+			<img src={photo} alt="company logo"/>
 			<div class="nav-left">
 				<!-- <ChangeThemeButton bind:currentTheme/> -->
 				<a class="active" href="#home">Home</a>
